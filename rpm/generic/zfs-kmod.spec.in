@@ -80,7 +80,7 @@ BuildRequires:  %{_bindir}/kmodtool
 %{?rhel:BuildRequires: kernel-devel}
 %{?fedora:BuildRequires: kernel-devel}
 %{?openEuler:BuildRequires: kernel-devel}
-%{?suse_version:BuildRequires: kernel-source}
+%{?suse_version:BuildRequires: kernel-source-longterm}
 
 %if !%{defined kernels} && !%{defined build_src_rpm}
     %if 0%{?rhel}%{?fedora}%{?suse_version}%{?openEuler}
